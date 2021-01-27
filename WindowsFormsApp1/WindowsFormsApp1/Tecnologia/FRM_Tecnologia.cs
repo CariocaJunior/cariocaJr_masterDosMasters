@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace WindowsFormsApp1.Tecnologia
 {
-    public partial class btnFechar : Form
+    public partial class FRM_Tecnologia : Form
     {
-        public btnFechar()
+        public FRM_Tecnologia()
         {
             InitializeComponent();
         }
