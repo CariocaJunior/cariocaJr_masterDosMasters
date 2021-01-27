@@ -1,16 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 using System.Data;
-using MySql.Data.MySqlClient;
+using MySqlConnector;
 
 namespace WindowsFormsApp1
 {
-	class User
+    class User
     {
         private MySqlConnection connection;
         private string server;

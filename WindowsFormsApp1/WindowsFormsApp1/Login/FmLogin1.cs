@@ -41,7 +41,7 @@ namespace WindowsFormsApp1
 			int result = objetoConsulta.FindOne(textBox1.Text, textBox2.Text);
 
 			//lblMsg.Text = result;
-			Frm_ProcessosPorDiretoria frm = new Frm_ProcessosPorDiretoria();
+			FmMenu frm = new FmMenu();
 			frm.Show();
 			if (result == 1)
 				label3.Text = "Usuário encontrado!";
