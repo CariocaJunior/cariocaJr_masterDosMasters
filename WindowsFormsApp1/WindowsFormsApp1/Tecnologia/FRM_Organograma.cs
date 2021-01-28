@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1.Tecnologia
 {
-    public partial class FRM_Tecnologia : Form
+    public partial class FRM_Organograma : Form
     {
-        public FRM_Tecnologia()
+        public FRM_Organograma()
         {
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
 
         }
