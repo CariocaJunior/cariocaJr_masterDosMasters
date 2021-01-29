@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using ClosedXML.Excel;
 namespace WindowsFormsApp1.Tecnologia
 {
     public partial class FRM_Tecnologia : Form
@@ -17,9 +17,10 @@ namespace WindowsFormsApp1.Tecnologia
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Btn_AbrirExcel_Click(object sender, EventArgs e)
         {
-
+            Frm_AbrirExcel frm = new Frm_AbrirExcel();
+            frm.Show(); 
         }
     }
 }
