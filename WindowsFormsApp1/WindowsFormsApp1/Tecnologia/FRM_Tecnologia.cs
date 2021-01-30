@@ -17,10 +17,39 @@ namespace WindowsFormsApp1.Tecnologia
             InitializeComponent();
         }
 
-        private void Btn_AbrirExcel_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            Frm_AbrirExcel frm = new Frm_AbrirExcel();
-            frm.Show(); 
+
+        }
+
+        private void Btn_Organograma_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lbl_Organograma_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_IcoCaixa_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_IcoProcessos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_IcoRelatorio_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_IcoAcaoMembro_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
