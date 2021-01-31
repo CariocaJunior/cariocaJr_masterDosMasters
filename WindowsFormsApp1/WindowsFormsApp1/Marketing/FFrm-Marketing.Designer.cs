@@ -1,7 +1,7 @@
 ﻿
-namespace WindowsFormsApp1.Tecnologia
+namespace WindowsFormsApp1.Marketing
 {
-    partial class FRM_Tecnologia
+    partial class Frm_Marketing
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace WindowsFormsApp1.Tecnologia
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRM_Tecnologia));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Marketing));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -44,7 +44,7 @@ namespace WindowsFormsApp1.Tecnologia
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(196)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -62,9 +62,9 @@ namespace WindowsFormsApp1.Tecnologia
             this.label1.Location = new System.Drawing.Point(167, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(507, 28);
+            this.label1.Size = new System.Drawing.Size(497, 28);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Sistema de Tecnologia - CARIOCA JÚNIOR";
+            this.label1.Text = "Sistema de Marketing - CARIOCA JÚNIOR";
             // 
             // panel2
             // 
@@ -125,7 +125,6 @@ namespace WindowsFormsApp1.Tecnologia
             this.Lbl_Organograma.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Lbl_Organograma.UseCompatibleTextRendering = true;
             this.Lbl_Organograma.UseVisualStyleBackColor = true;
-            this.Lbl_Organograma.Click += new System.EventHandler(this.Lbl_Organograma_Click);
             // 
             // Btn_IcoCaixa
             // 
@@ -157,7 +156,7 @@ namespace WindowsFormsApp1.Tecnologia
             this.Btn_IcoProcessos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Btn_IcoProcessos.UseVisualStyleBackColor = true;
             // 
-            // FRM_Tecnologia
+            // Frm_Marketing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -166,7 +165,7 @@ namespace WindowsFormsApp1.Tecnologia
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "FRM_Tecnologia";
+            this.Name = "Frm_Marketing";
             this.Text = "FRM_Tecnologia";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

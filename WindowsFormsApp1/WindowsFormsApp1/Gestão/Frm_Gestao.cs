@@ -7,14 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ClosedXML.Excel;
-namespace WindowsFormsApp1.Tecnologia
+
+namespace WindowsFormsApp1.Gestão
 {
-    public partial class FRM_Tecnologia : Form
+    public partial class Frm_Gestao : Form
     {
-        public FRM_Tecnologia()
+        public Frm_Gestao()
         {
             InitializeComponent();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Btn_IcoCaixa_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void Lbl_Organograma_Click(object sender, EventArgs e)

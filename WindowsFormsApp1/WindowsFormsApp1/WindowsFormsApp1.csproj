@@ -95,6 +95,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gestão\Frm_Gestao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestão\Frm_Gestao.Designer.cs">
+      <DependentUpon>Frm_Gestao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login\FmLogin1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,11 +113,11 @@
     <Compile Include="Login\FmMenu.Designer.cs">
       <DependentUpon>FmMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Processos\Processos.cs">
+    <Compile Include="Marketing\FFrm-Marketing.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Processos\Processos.Designer.cs">
-      <DependentUpon>Processos.cs</DependentUpon>
+    <Compile Include="Marketing\FFrm-Marketing.Designer.cs">
+      <DependentUpon>FFrm-Marketing.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -128,35 +134,17 @@
       <DependentUpon>FRM_Tecnologia.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
-    <Compile Include="Vector\Administracao.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Vector\Administracao.Designer.cs">
-      <DependentUpon>Administracao.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Vector\Frmgeral.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Vector\Frmgeral.Designer.cs">
-      <DependentUpon>Frmgeral.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Vector\Frm_Marketing.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Vector\Frm_Marketing.Designer.cs">
-      <DependentUpon>Frm_Marketing.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Vector\Frm_Tecnologia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Vector\Frm_Tecnologia.Designer.cs">
-      <DependentUpon>Frm_Tecnologia.cs</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="Gestão\Frm_Gestao.resx">
+      <DependentUpon>Frm_Gestao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login\FmLogin1.resx">
       <DependentUpon>FmLogin1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login\FmMenu.resx">
       <DependentUpon>FmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marketing\FFrm-Marketing.resx">
+      <DependentUpon>FFrm-Marketing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -173,18 +161,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tecnologia\FRM_Tecnologia.resx">
       <DependentUpon>FRM_Tecnologia.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Vector\Administracao.resx">
-      <DependentUpon>Administracao.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Vector\Frmgeral.resx">
-      <DependentUpon>Frmgeral.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Vector\Frm_Marketing.resx">
-      <DependentUpon>Frm_Marketing.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Vector\Frm_Tecnologia.resx">
-      <DependentUpon>Frm_Tecnologia.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="..\.editorconfig">
       <Link>.editorconfig</Link>
@@ -230,5 +206,6 @@
   <ItemGroup>
     <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Preppy %281%29.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

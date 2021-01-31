@@ -1,7 +1,7 @@
 ﻿
-namespace WindowsFormsApp1.Tecnologia
+namespace WindowsFormsApp1.Gestão
 {
-    partial class FRM_Tecnologia
+    partial class Frm_Gestao
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace WindowsFormsApp1.Tecnologia
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRM_Tecnologia));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Gestao));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -44,7 +44,8 @@ namespace WindowsFormsApp1.Tecnologia
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(196)))));
+            this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(76)))), ((int)(((byte)(2)))));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -53,6 +54,7 @@ namespace WindowsFormsApp1.Tecnologia
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1067, 62);
             this.panel1.TabIndex = 2;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label1
             // 
@@ -62,9 +64,10 @@ namespace WindowsFormsApp1.Tecnologia
             this.label1.Location = new System.Drawing.Point(167, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(507, 28);
+            this.label1.Size = new System.Drawing.Size(457, 34);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Sistema de Tecnologia - CARIOCA JÚNIOR";
+            this.label1.Text = "Sistema de  Gestão - CARIOCA JÚNIOR";
+            this.label1.UseCompatibleTextRendering = true;
             // 
             // panel2
             // 
@@ -141,6 +144,7 @@ namespace WindowsFormsApp1.Tecnologia
             this.Btn_IcoCaixa.Text = "Caixa";
             this.Btn_IcoCaixa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Btn_IcoCaixa.UseVisualStyleBackColor = true;
+            this.Btn_IcoCaixa.Click += new System.EventHandler(this.Btn_IcoCaixa_Click);
             // 
             // Btn_IcoProcessos
             // 
@@ -157,7 +161,7 @@ namespace WindowsFormsApp1.Tecnologia
             this.Btn_IcoProcessos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Btn_IcoProcessos.UseVisualStyleBackColor = true;
             // 
-            // FRM_Tecnologia
+            // Frm_Gestao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -166,7 +170,7 @@ namespace WindowsFormsApp1.Tecnologia
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "FRM_Tecnologia";
+            this.Name = "Frm_Gestao";
             this.Text = "FRM_Tecnologia";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1.Processos
+namespace WindowsFormsApp1.Marketing
 {
-    public partial class Processos : Form
+    public partial class Frm_Marketing : Form
     {
-        public Processos()
+        public Frm_Marketing()
         {
             InitializeComponent();
         }
