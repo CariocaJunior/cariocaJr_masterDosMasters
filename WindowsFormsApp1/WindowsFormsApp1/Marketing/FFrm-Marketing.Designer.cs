@@ -121,7 +121,7 @@ namespace WindowsFormsApp1.Marketing
             this.Lbl_Organograma.Name = "Lbl_Organograma";
             this.Lbl_Organograma.Size = new System.Drawing.Size(148, 71);
             this.Lbl_Organograma.TabIndex = 4;
-            this.Lbl_Organograma.Text = "Organograma";
+            this.Lbl_Organograma.Text = "Analyttcs kkkk";
             this.Lbl_Organograma.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Lbl_Organograma.UseCompatibleTextRendering = true;
             this.Lbl_Organograma.UseVisualStyleBackColor = true;
